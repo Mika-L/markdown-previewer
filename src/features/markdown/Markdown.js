@@ -52,6 +52,10 @@ And here. | Okay. | I think we get it.
         };
 
         this.handleFocus = this.handleFocus.bind(this);
+
+        window.marked.setOptions({
+            breaks: true
+          });
     }
 
     handleFocus(event) {
